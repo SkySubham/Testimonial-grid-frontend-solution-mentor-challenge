@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ecf2f8;
+    font-family: "Barlow Semi Condensed", sans-serif;;
+    font-size: 13px;
+
+}
+
+#testimonial-grid{
+    padding: 7% 5%;
+}
+
+#container-1{
+ background-color: #7541c8;
+  color:#ffffff ; 
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 2%;
+  box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.2);
+}
+
+#container-2{
+background-color: #48556a;
+color:#ffffff ; 
+margin-bottom: 20px;
+padding: 20px;
+border-radius: 2%;
+box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.2);
+}
+
+#container-3{
+  background-color:#ffffff ;  
+  color: #48556a;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 2%;
+  box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.2);
+}
+
+#container-4{
+ background-color: #19212e; 
+ color:#ffffff ;  
+ margin-bottom: 20px;
+ padding: 20px;
+ border-radius: 2%;
+ box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.2);
+}
+
+#container-5{
+  background-color: #ffffff;  
+  color: #48556a;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 2%;
+  box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.2);
+}
+
+#profile-1,#profile-2,#profile-3,#profile-4,#profile-5,#name-1,#name-2,#name-3,#name-4,#name-5{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+#name-1,#name-2,#name-3,#name-4,#name-5{
+  flex-direction: column;
+  margin-left: 5%;
+  font-size: 0.9rem;
+  justify-content: center;
+}
+
+.image{
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.head{
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.under{
+  opacity: 0.4;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+
+@media(min-width: 576px){
+   #testimonial-grid{
+    display: flex;
+    max-width: 1300px;
+    margin: 0 auto;
+    justify-content: space-between;
+   }
+
+   #Left-section{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 78%;
+   }
+
+   #top{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-between;
+   }
+
+   #bottom{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-between;
+   }
+
+   #container-5{
+    flex-basis: 20%;
+   }
+
+   #container-1{
+    flex-basis: 68%;
+   }
+
+   #container-2{
+    flex-basis: 30%;  
+   }
+
+   #container-3{
+    flex-basis: 30%;
+   }
+   #container-4{
+    flex-basis: 68%;
+   }
+
+   }
+
+
